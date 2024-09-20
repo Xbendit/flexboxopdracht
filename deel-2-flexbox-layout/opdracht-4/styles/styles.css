@@ -25,7 +25,7 @@ body {
 .outer-col-2 {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
 }
@@ -39,7 +39,7 @@ header {
 .inner-row {
     display: flex;
     flex-direction: row;
-    flex-basis: 100%;
+    flex-basis: auto;
     /* border: 2px dashed green;*/
     flex-grow: 1;
     flex-shrink: 1;
@@ -54,7 +54,7 @@ header {
 
 article {
     display: flex;
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
 
 aside {
