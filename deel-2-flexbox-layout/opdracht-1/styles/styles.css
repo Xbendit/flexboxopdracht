@@ -1,1 +1,60 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bodyop1 {
+    display: flex;
+    border: 2px dashed red;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.mainop1 {
+    display: flex;
+    border: 2px dashed blue;
+    flex-basis: auto;
+    justify-content: space-evenly;
+}
+
+header {
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+article {
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+nav {
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+aside {
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+footer {
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*
+div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+*/
