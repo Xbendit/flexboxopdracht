@@ -48,7 +48,7 @@ main {
 
 article {
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 100%;
 }
 aside {
     display: flex;
